@@ -1,7 +1,11 @@
 """4コマ漫画画像を生成する (1080x1080px / Instagram正方形)"""
+import sys
 from PIL import Image, ImageDraw, ImageFont
 from pathlib import Path
 import os
+
+sys.path.insert(0, str(Path(__file__).parent))
+from fetch_irasutoya import fetch as _fetch
 
 # ── キャンバス設定 ──────────────────────────────────────────
 CANVAS_W, CANVAS_H = 1080, 1080
@@ -18,9 +22,8 @@ PLACEHOLDER_BG = "#F0F0F0"
 PLACEHOLDER_FG = "#AAAAAA"
 CATEGORY_COLOR = {"賃貸": "#2D6A4F", "売買": "#C1440E"}
 
-ROOT = Path(__file__).parent.parent
-IRASUTOYA_DIR = ROOT / "images" / "irasutoya"
-OUTPUT_DIR    = ROOT / "output"
+ROOT       = Path(__file__).parent.parent
+OUTPUT_DIR = ROOT / "output"
 
 
 def _get_font(size: int) -> ImageFont.FreeTypeFont:
@@ -60,9 +63,9 @@ def _wrap(text: str, font, max_w: int, draw: ImageDraw.ImageDraw) -> list[str]:
     return lines
 
 
-def _load_image(key: str, max_w: int, max_h: int) -> Image.Image:
-    path = IRASUTOYA_DIR / f"{key}.png"
-    if path.exists():
+def _load_image(keyword: str, max_w: int, max_h: int) -> Image.Image:
+    path = _fetch(keyword)
+    if path:
         try:
             img = Image.open(path).convert("RGBA")
             img.thumbnail((max_w, max_h), Image.LANCZOS)
@@ -75,7 +78,7 @@ def _load_image(key: str, max_w: int, max_h: int) -> Image.Image:
     d.rounded_rectangle([0, 0, max_w - 1, max_h - 1], radius=10,
                          fill=PLACEHOLDER_BG, outline="#CCCCCC", width=1)
     font = _get_font(16)
-    label = key.replace("_", "\n")
+    label = keyword[:10]
     d.text((max_w // 2, max_h // 2), label, font=font,
            fill=PLACEHOLDER_FG, anchor="mm", align="center")
     return ph

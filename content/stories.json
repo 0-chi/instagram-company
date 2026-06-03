@@ -2,217 +2,217 @@
   {
     "id": "R01", "category": "賃貸", "title": "徒歩10分の罠",
     "panels": [
-      {"image": "happy_person",   "text": "駅徒歩10分！\nここに決めた！"},
-      {"image": "walking_person", "text": "実際に歩いてみると…"},
-      {"image": "tired_person",   "text": "全部！坂道！\nだった！"},
-      {"image": "crying_person",  "text": "体感25分でした"}
+      {"image": "喜ぶ ガッツポーズ",   "text": "駅徒歩10分！\nここに決めた！"},
+      {"image": "歩く 人 道",           "text": "実際に歩いてみると…"},
+      {"image": "坂道 疲れる",          "text": "全部！坂道！\nだった！"},
+      {"image": "泣く 疲れた",          "text": "体感25分でした"}
     ]
   },
   {
     "id": "R02", "category": "賃貸", "title": "内見写真の広角マジック",
     "panels": [
-      {"image": "happy_person",    "text": "写真で見たら\nめちゃ広い！"},
-      {"image": "real_estate_agent","text": "では内見へどうぞ"},
-      {"image": "shocked_person",  "text": "…あれ？\n思ったより狭い？"},
-      {"image": "crying_person",   "text": "広角レンズの\n魔法でした"}
+      {"image": "喜ぶ 笑顔 部屋",       "text": "写真で見たら\nめちゃ広い！"},
+      {"image": "スーツ 案内 男性",      "text": "では内見へどうぞ"},
+      {"image": "驚く あれ 人",         "text": "…あれ？\n思ったより狭い？"},
+      {"image": "泣く 落ち込む",         "text": "広角レンズの\n魔法でした"}
     ]
   },
   {
     "id": "R03", "category": "賃貸", "title": "退去費用の衝撃",
     "panels": [
-      {"image": "happy_person",   "text": "きれいに使った！\n退去費用ゼロでしょ"},
-      {"image": "document_stack", "text": "（請求書が届く）"},
-      {"image": "shocked_person", "text": "壁の小さな穴で\n8万円！？"},
-      {"image": "crying_person",  "text": "原状回復、\n初めて知った意味"}
+      {"image": "自信 ガッツポーズ 掃除","text": "きれいに使った！\n退去費用ゼロでしょ"},
+      {"image": "封筒 手紙 請求書",      "text": "（請求書が届く）"},
+      {"image": "ショック 驚く 金額",    "text": "壁の小さな穴で\n8万円！？"},
+      {"image": "泣く 後悔 お金",        "text": "原状回復、\n初めて知った意味"}
     ]
   },
   {
     "id": "R04", "category": "賃貸", "title": "更新料という存在",
     "panels": [
-      {"image": "happy_person",   "text": "入居完了！\n快適生活スタート！"},
-      {"image": "thinking_person","text": "（2年後）"},
-      {"image": "shocked_person", "text": "更新料？\n聞いてたっけ…"},
-      {"image": "document_stack", "text": "契約書12ページ目\nに書いてあった"}
+      {"image": "引越し 完了 喜ぶ",      "text": "入居完了！\n快適生活スタート！"},
+      {"image": "考える 悩む",           "text": "（2年後）"},
+      {"image": "驚く ショック お金",    "text": "更新料？\n聞いてたっけ…"},
+      {"image": "書類 契約書 確認",      "text": "契約書12ページ目\nに書いてあった"}
     ]
   },
   {
     "id": "R05", "category": "賃貸", "title": "隣の生活音",
     "panels": [
-      {"image": "happy_person",   "text": "鉄筋コンクリート！\n防音バッチリ！"},
-      {"image": "thinking_person","text": "（入居後）"},
-      {"image": "shocked_person", "text": "隣の音楽\n丸聞こえ…"},
-      {"image": "crying_person",  "text": "隣人の咳まで\n聞こえます"}
+      {"image": "喜ぶ 安心 笑顔",        "text": "鉄筋コンクリート！\n防音バッチリ！"},
+      {"image": "首を傾げる 不思議",      "text": "（入居後）"},
+      {"image": "耳 聞こえる 困る",      "text": "隣の音楽\n丸聞こえ…"},
+      {"image": "頭を抱える 悩む",        "text": "隣人の咳まで\n聞こえます"}
     ]
   },
   {
     "id": "R06", "category": "賃貸", "title": "日当たり良好の夏",
     "panels": [
-      {"image": "happy_person",  "text": "南向き！\n日当たり最高！"},
-      {"image": "house_exterior","text": "（夏になる）"},
-      {"image": "tired_person",  "text": "室温38℃…\nクーラーが止まらない"},
-      {"image": "stack_of_money","text": "電気代が\n家賃を超えた"}
+      {"image": "笑顔 喜ぶ 太陽",        "text": "南向き！\n日当たり最高！"},
+      {"image": "一軒家 夏 暑い",        "text": "（夏になる）"},
+      {"image": "暑い 汗 クーラー",      "text": "室温38℃…\nクーラーが止まらない"},
+      {"image": "お金 電気代 請求書",    "text": "電気代が\n家賃を超えた"}
     ]
   },
   {
     "id": "R07", "category": "賃貸", "title": "収納「充実」の実態",
     "panels": [
-      {"image": "happy_person",   "text": "収納充実！\n荷物多いから助かる"},
-      {"image": "room_interior",  "text": "（実際の収納）"},
-      {"image": "shocked_person", "text": "ダンボール\n2箱しか入らない…"},
-      {"image": "crying_person",  "text": "充実の定義を\n問いたい"}
+      {"image": "ダンボール 引越し 荷物","text": "収納充実！\n荷物多いから助かる"},
+      {"image": "収納 クローゼット 押入れ","text": "（実際の収納）"},
+      {"image": "がっかり 驚く 狭い",    "text": "ダンボール\n2箱しか入らない…"},
+      {"image": "泣く 困る 落ち込む",    "text": "充実の定義を\n問いたい"}
     ]
   },
   {
     "id": "R08", "category": "賃貸", "title": "閑静な住宅街",
     "panels": [
-      {"image": "happy_person",   "text": "閑静な住宅街！\n静かそう！"},
-      {"image": "thinking_person","text": "（入居翌朝5時）"},
-      {"image": "tired_person",   "text": "ドドドドド…\n工事の音が…"},
-      {"image": "crying_person",  "text": "3ヶ月続きました"}
+      {"image": "笑顔 期待 住宅街",      "text": "閑静な住宅街！\n静かそう！"},
+      {"image": "夜 眠れない 困る",      "text": "（入居翌朝5時）"},
+      {"image": "工事 うるさい 騒音",    "text": "ドドドドド…\n工事の音が…"},
+      {"image": "疲れた ぐったり",       "text": "3ヶ月続きました"}
     ]
   },
   {
     "id": "R09", "category": "賃貸", "title": "仲介手数料の謎",
     "panels": [
-      {"image": "thinking_person","text": "なんで仲介手数料\n家賃1ヶ月分なの？"},
-      {"image": "reading_person", "text": "（調べてみる）"},
-      {"image": "thinking_person","text": "なんとなく\nわかった"},
-      {"image": "sad_person",     "text": "でもやっぱり\n高い"}
+      {"image": "疑問 首を傾げる お金",  "text": "なんで仲介手数料\n家賃1ヶ月分なの？"},
+      {"image": "スマートフォン 検索",   "text": "（調べてみる）"},
+      {"image": "なるほど 頷く 理解",    "text": "なんとなく\nわかった"},
+      {"image": "しょんぼり 悲しい",     "text": "でもやっぱり\n高い"}
     ]
   },
   {
     "id": "R10", "category": "賃貸", "title": "ペット可の審査地獄",
     "panels": [
-      {"image": "happy_person",   "text": "ペット可！\n猫と暮らせる！"},
-      {"image": "document_stack", "text": "（審査書類の山）"},
-      {"image": "shocked_person", "text": "収入証明・保証人\n・面接まで!?"},
-      {"image": "crying_person",  "text": "猫より私の審査\nが厳しかった"}
+      {"image": "猫 笑顔 嬉しい",        "text": "ペット可！\n猫と暮らせる！"},
+      {"image": "書類 申請 山",           "text": "（審査書類の山）"},
+      {"image": "驚く ショック 汗",      "text": "収入証明・保証人\n・面接まで!?"},
+      {"image": "猫 泣く 困る",          "text": "猫より私の審査\nが厳しかった"}
     ]
   },
   {
     "id": "R11", "category": "賃貸", "title": "宅配ボックスなし問題",
     "panels": [
-      {"image": "happy_person",  "text": "ネットで\nポチった！"},
-      {"image": "smartphone",    "text": "「ご不在でした」"},
-      {"image": "tired_person",  "text": "また管理人室\nに取りに行く…"},
-      {"image": "thinking_person","text": "次の引越し条件に\n宅配BOXを追加"}
+      {"image": "パソコン 買い物 喜ぶ",  "text": "ネットで\nポチった！"},
+      {"image": "不在票 郵便 メモ",       "text": "「ご不在でした」"},
+      {"image": "荷物 受け取り 面倒",    "text": "また管理人室\nに取りに行く…"},
+      {"image": "メモ 考える 決める",    "text": "次の引越し条件に\n宅配BOXを追加"}
     ]
   },
   {
     "id": "R12", "category": "賃貸", "title": "バストイレ別の罠",
     "panels": [
-      {"image": "happy_person",  "text": "バストイレ別！\n清潔感がある！"},
-      {"image": "room_interior", "text": "（内見に行く）"},
-      {"image": "shocked_person","text": "洗面台が\nない…？"},
-      {"image": "crying_person", "text": "バストイレ別\n≠ 3点独立でした"}
+      {"image": "笑顔 期待 お風呂",      "text": "バストイレ別！\n清潔感がある！"},
+      {"image": "部屋 内見 確認",         "text": "（内見に行く）"},
+      {"image": "驚く 洗面台 ない",      "text": "洗面台が\nない…？"},
+      {"image": "泣く 困惑 ショック",    "text": "バストイレ別\n≠ 3点独立でした"}
     ]
   },
   {
     "id": "B01", "category": "売買", "title": "モデルルームのマジック",
     "panels": [
-      {"image": "happy_person",  "text": "モデルルーム広い！\nここに決めた！"},
-      {"image": "room_interior", "text": "（実際の部屋に\n家具を置く）"},
-      {"image": "shocked_person","text": "あれ…？\n全然違う広さ…"},
-      {"image": "real_estate_agent","text": "モデルルームの家具\n実は小さめです"}
+      {"image": "広い 部屋 喜ぶ",        "text": "モデルルーム広い！\nここに決めた！"},
+      {"image": "部屋 家具 インテリア",  "text": "（実際の部屋に\n家具を置く）"},
+      {"image": "驚く 狭い 困惑",        "text": "あれ…？\n全然違う広さ…"},
+      {"image": "スーツ 説明 男性",      "text": "モデルルームの家具\n実は小さめです"}
     ]
   },
   {
     "id": "B02", "category": "売買", "title": "住宅ローン審査の書類",
     "panels": [
-      {"image": "happy_person",   "text": "住宅ローン\n申し込みます！"},
-      {"image": "document_stack", "text": "（必要書類リスト）"},
-      {"image": "reading_person", "text": "読み終わらない…\nまだある…"},
-      {"image": "crying_person",  "text": "書類集めに\n1ヶ月かかった"}
+      {"image": "マイホーム 夢 笑顔",    "text": "住宅ローン\n申し込みます！"},
+      {"image": "書類 リスト 長い",      "text": "（必要書類リスト）"},
+      {"image": "書類 読む 疲れる",      "text": "読み終わらない…\nまだある…"},
+      {"image": "泣く 書類 苦労",        "text": "書類集めに\n1ヶ月かかった"}
     ]
   },
   {
     "id": "B03", "category": "売買", "title": "諸費用の計算し直し",
     "panels": [
-      {"image": "happy_person",   "text": "月々8万円で\n夢のマイホーム！"},
-      {"image": "thinking_person","text": "（改めて計算）"},
-      {"image": "document_stack", "text": "管理費・修繕費\n・固定資産税…"},
-      {"image": "shocked_person", "text": "月13万円\nでした"}
+      {"image": "マイホーム 夢 ガッツポーズ","text": "月々8万円で\n夢のマイホーム！"},
+      {"image": "電卓 計算 考える",      "text": "（改めて計算）"},
+      {"image": "費用 書類 リスト",      "text": "管理費・修繕費\n・固定資産税…"},
+      {"image": "ショック 驚く 青ざめる","text": "月13万円\nでした"}
     ]
   },
   {
     "id": "B04", "category": "売買", "title": "内覧日の天気マジック",
     "panels": [
-      {"image": "happy_person",   "text": "内覧日は晴れ！\n日当たり最高！"},
-      {"image": "thinking_person","text": "（翌日、雨の日\nに見に行く）"},
-      {"image": "sad_person",     "text": "なんか\n暗い…？"},
-      {"image": "crying_person",  "text": "晴れの日だけで\n決めた自分を恨む"}
+      {"image": "晴れ 日当たり 笑顔",    "text": "内覧日は晴れ！\n日当たり最高！"},
+      {"image": "雨 傘 散歩",            "text": "（翌日、雨の日\nに見に行く）"},
+      {"image": "暗い 部屋 不安",        "text": "なんか\n暗い…？"},
+      {"image": "後悔 落ち込む 反省",    "text": "晴れの日だけで\n決めた自分を恨む"}
     ]
   },
   {
     "id": "B05", "category": "売買", "title": "重要事項説明書",
     "panels": [
-      {"image": "real_estate_agent","text": "重要事項説明を\n始めます"},
-      {"image": "document_stack",  "text": "（分厚い書類）"},
-      {"image": "reading_person",  "text": "読み切れない…"},
-      {"image": "shocked_person",  "text": "サインした\n（半分しか読めてない）"}
+      {"image": "スーツ 説明 プレゼン",  "text": "重要事項説明を\n始めます"},
+      {"image": "書類 分厚い 束",        "text": "（分厚い書類）"},
+      {"image": "書類 読む 疲れる",      "text": "読み切れない…"},
+      {"image": "契約 サイン ハンコ",    "text": "サインした\n（半分しか読めてない）"}
     ]
   },
   {
     "id": "B06", "category": "売買", "title": "新築の定義",
     "panels": [
-      {"image": "happy_person",   "text": "新築！誰も住んでない\nピカピカ！"},
-      {"image": "reading_person", "text": "（竣工日を確認）"},
-      {"image": "thinking_person","text": "竣工から\n9ヶ月経ってる…"},
-      {"image": "crying_person",  "text": "新築＝未入居\nでした"}
+      {"image": "新築 マンション 嬉しい","text": "新築！誰も住んでない\nピカピカ！"},
+      {"image": "書類 確認 読む",        "text": "（竣工日を確認）"},
+      {"image": "首を傾げる 疑問 考える","text": "竣工から\n9ヶ月経ってる…"},
+      {"image": "ショック 泣く 気づく",  "text": "新築＝未入居\nでした"}
     ]
   },
   {
     "id": "B07", "category": "売買", "title": "南向きの現実",
     "panels": [
-      {"image": "happy_person",  "text": "南向き！\n明るい！最高！"},
-      {"image": "house_exterior","text": "（前の建物を確認）"},
-      {"image": "shocked_person","text": "前のマンションが\n近すぎる…"},
-      {"image": "sad_person",    "text": "南向き ≠\n日当たり良好"}
+      {"image": "太陽 笑顔 喜ぶ",        "text": "南向き！\n明るい！最高！"},
+      {"image": "マンション 外観 建物",  "text": "（前の建物を確認）"},
+      {"image": "驚く ショック 壁",      "text": "前のマンションが\n近すぎる…"},
+      {"image": "悲しい しょんぼり",     "text": "南向き ≠\n日当たり良好"}
     ]
   },
   {
     "id": "B08", "category": "売買", "title": "引き渡し日の緊張",
     "panels": [
-      {"image": "thinking_person","text": "いよいよ\n引き渡し日…"},
-      {"image": "smartphone",    "text": "数千万円の\n振込確認画面"},
-      {"image": "shocked_person","text": "指が\n震える…"},
-      {"image": "tired_person",  "text": "人生で一番\n緊張した5秒"}
+      {"image": "緊張 不安 ドキドキ",    "text": "いよいよ\n引き渡し日…"},
+      {"image": "スマートフォン 振込 銀行","text": "数千万円の\n振込確認画面"},
+      {"image": "震える 緊張 青ざめる",  "text": "指が\n震える…"},
+      {"image": "ほっとする 安堵 疲れた","text": "人生で一番\n緊張した5秒"}
     ]
   },
   {
     "id": "B09", "category": "売買", "title": "購入後に発覚する費用",
     "panels": [
-      {"image": "happy_person",   "text": "月々8万円で\n買えます！"},
-      {"image": "stack_of_money", "text": "（実際の月額\nを計算）"},
-      {"image": "document_stack", "text": "駐車場・管理費\n・修繕費…"},
-      {"image": "shocked_person", "text": "月5万円\n多くかかってた"}
+      {"image": "笑顔 ガッツポーズ 家",  "text": "月々8万円で\n買えます！"},
+      {"image": "電卓 計算 お金",        "text": "（実際の月額\nを計算）"},
+      {"image": "費用 書類 駐車場",      "text": "駐車場・管理費\n・修繕費…"},
+      {"image": "ショック 驚く 大金",    "text": "月5万円\n多くかかってた"}
     ]
   },
   {
     "id": "B10", "category": "売買", "title": "角部屋を買ったのに",
     "panels": [
-      {"image": "happy_person",  "text": "角部屋！\n開放感！眺望最高！"},
-      {"image": "house_exterior","text": "（隣地に看板）"},
-      {"image": "shocked_person","text": "建築計画の\nお知らせ…"},
-      {"image": "crying_person", "text": "窓が\n塞がれた"}
+      {"image": "眺望 窓 笑顔",          "text": "角部屋！\n開放感！眺望最高！"},
+      {"image": "マンション 看板 建築",  "text": "（隣地に看板）"},
+      {"image": "工事 建設 驚く",        "text": "建築計画の\nお知らせ…"},
+      {"image": "泣く 窓 塞がれる",      "text": "窓が\n塞がれた"}
     ]
   },
   {
     "id": "B11", "category": "売買", "title": "内覧後の速攻連絡",
     "panels": [
-      {"image": "happy_person",    "text": "内覧終わった！\nゆっくり検討しよう"},
-      {"image": "smartphone",      "text": "（スマホを見る）"},
-      {"image": "shocked_person",  "text": "着信8件…"},
-      {"image": "real_estate_agent","text": "本日中にお返事を\nいただけますか？"}
+      {"image": "内覧 考える のんびり",   "text": "内覧終わった！\nゆっくり検討しよう"},
+      {"image": "スマートフォン 着信 電話","text": "（スマホを見る）"},
+      {"image": "驚く 着信 履歴 多い",   "text": "着信8件…"},
+      {"image": "スーツ 営業 急かす",    "text": "本日中にお返事を\nいただけますか？"}
     ]
   },
   {
     "id": "B12", "category": "売買", "title": "マイホームブルー",
     "panels": [
-      {"image": "happy_person",   "text": "夢のマイホーム\n契約！やった！"},
-      {"image": "thinking_person","text": "（翌日）"},
-      {"image": "sad_person",     "text": "…本当に\n良かったのかな"},
-      {"image": "reading_person", "text": "マイホームブルーは\n誰でもなるらしい"}
+      {"image": "契約 ガッツポーズ 喜ぶ","text": "夢のマイホーム\n契約！やった！"},
+      {"image": "悩む 考える 不安",      "text": "（翌日）"},
+      {"image": "後悔 悲しい 不安",      "text": "…本当に\n良かったのかな"},
+      {"image": "パソコン 調べる 読む",  "text": "マイホームブルーは\n誰でもなるらしい"}
     ]
   }
 ]
