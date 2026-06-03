@@ -1,6 +1,7 @@
 """いらすとやから画像を検索・ダウンロードする（Blogger API使用）"""
 import re
 import hashlib
+import shutil
 import requests
 from pathlib import Path
 
@@ -12,20 +13,16 @@ _API_BASE = "https://www.irasutoya.com/feeds/posts/default"
 
 
 def _is_real_illustration(url: str) -> bool:
-    """カテゴリサムネイルや非イラスト画像を除外する"""
     filename = url.split("/")[-1].split("\\")[0]
-    # thumbnail_ で始まるのはカテゴリページのサムネイル（実際のイラストではない）
     if filename.startswith("thumbnail_"):
         return False
-    # サイトUI系
     if any(x in filename for x in ["banner", "button", "logo", "navi", "pyoko", "searchbtn"]):
         return False
     return True
 
 
-def fetch(keyword: str) -> Path | None:
-    """キーワードでいらすとやを検索し、画像のPathを返す。失敗時はNone。"""
-    CACHE_DIR.mkdir(exist_ok=True)
+def _search_one(keyword: str) -> Path | None:
+    """1キーワードで検索してダウンロード。キャッシュあれば即返す。"""
     cache_path = CACHE_DIR / f"{hashlib.md5(keyword.encode()).hexdigest()}.png"
     if cache_path.exists():
         return cache_path
@@ -42,7 +39,6 @@ def fetch(keyword: str) -> Path | None:
 
         entries = data.get("feed", {}).get("entry", [])
         if not entries:
-            print(f"⚠️  検索結果なし: [{keyword}]")
             return None
 
         img_url = None
@@ -50,12 +46,10 @@ def fetch(keyword: str) -> Path | None:
             thumb = entry.get("media$thumbnail", {})
             url = thumb.get("url", "")
             if url and _is_real_illustration(url):
-                # s72-c → s600 に変換してフルサイズ取得
                 img_url = re.sub(r"/s\d+-c/", "/s600/", url)
                 break
 
         if not img_url:
-            print(f"⚠️  適切な画像が見つかりませんでした: [{keyword}]")
             return None
 
         img_resp = requests.get(
@@ -67,6 +61,28 @@ def fetch(keyword: str) -> Path | None:
         cache_path.write_bytes(img_resp.content)
         return cache_path
 
-    except Exception as e:
-        print(f"⚠️  いらすとや取得失敗 [{keyword}]: {e}")
+    except Exception:
         return None
+
+
+def fetch(keyword: str) -> Path | None:
+    """キーワードで検索。ヒットしなければ単語を減らして再試行する。"""
+    CACHE_DIR.mkdir(exist_ok=True)
+
+    # 元のキーワードそのままでキャッシュを確認
+    final_cache = CACHE_DIR / f"{hashlib.md5(keyword.encode()).hexdigest()}.png"
+    if final_cache.exists():
+        return final_cache
+
+    words = keyword.split()
+    for n in range(len(words), 0, -1):
+        search = " ".join(words[:n])
+        result = _search_one(search)
+        if result:
+            if result != final_cache:
+                shutil.copy(result, final_cache)
+            print(f"✅ いらすとや取得: [{search}]")
+            return final_cache
+
+    print(f"⚠️  いらすとや取得失敗: [{keyword}]")
+    return None
