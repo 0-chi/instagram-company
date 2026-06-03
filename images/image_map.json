@@ -1,0 +1,18 @@
+{
+  "_readme": "このファイルのキー名.png でいらすとや画像を images/irasutoya/ に保存してください",
+  "happy_person":      "笑顔・嬉しそうな人（例: ガッツポーズの人）",
+  "shocked_person":    "驚いた・ビックリした人",
+  "sad_person":        "悲しんでいる人・しょんぼりの人",
+  "tired_person":      "疲れた・汗をかいている人",
+  "crying_person":     "泣いている人",
+  "thinking_person":   "考えている・悩んでいる人",
+  "walking_person":    "歩いている人",
+  "reading_person":    "書類・本を読んでいる人",
+  "real_estate_agent": "スーツの人・ビジネスパーソン",
+  "house_exterior":    "家・一軒家の外観イラスト",
+  "apartment_building":"マンション・アパートの外観イラスト",
+  "room_interior":     "部屋の内部・インテリアイラスト",
+  "document_stack":    "書類の山・ファイルの束",
+  "stack_of_money":    "お金・札束・コインのイラスト",
+  "smartphone":        "スマートフォン・携帯電話のイラスト"
+}
